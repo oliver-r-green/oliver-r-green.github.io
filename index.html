@@ -1,0 +1,92 @@
+<html>
+<head>
+    <title>Project Demo Website</title>
+    <LINK REL='stylesheet' TYPE='text/css' HREF='FixPC.css'>
+</head>
+<body>
+
+    <div class="grid-container">
+
+        <div class="grid-item">
+            <div class="header" onmouseout="headerCycle(-1, 0)">
+                <!--below are links to multiple html documents I have written-->
+
+                <div></div>
+                <a style="text-decoration: none" href="index.html"><div class="header-text" onmouseover="headerCycle(0, 0)">Fix PC</div></a>
+                <a style="text-decoration: none" href="index.html"><div class="header-text" onmouseover="headerCycle(1, 0)">CAD</div></a>
+                <a style="text-decoration: none" href="index.html"><div class="header-text" onmouseover="headerCycle(2, 0)">Other</div></a>
+                <div></div>
+                <span class="bar" id="bar"></span>
+
+            </div>
+        </div>
+
+        <div class="grid-item">
+            <div class="grid-container">
+                <img class="fade" src="FixPCAssets/Fade.png">
+                <img class="logo" src="FixPCAssets/fixPCLogo.png">
+                <img class="space" src="FixPCAssets/Space.png">
+                <img class="fade" id="flip" src="FixPCAssets/Fade.png">
+                <img class="logoCentre" id="rise" src="FixPCAssets/fixPCLogo.png">
+            </div>
+        </div>
+
+        <div class="grid-item"><div class="spacer"></div></div>
+
+        <div class="grid-item">
+            <div class="image-bar-space">
+                <div id="image-bar" data-mouse-down-at="0" data-prev-percentage="0">
+                    <img class="image" src="FixPCAssets/Grabber.png" draggable="false">
+                    <img class="image" src="FixPCAssets/Cube.png" draggable="false">
+                    <img class="image" src="FixPCAssets/Theatre.png" draggable="false">
+                    <img class="image" src="FixPCAssets/Home.png" draggable="false">
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-item"><div class="spacer"></div></div>
+        <div class="grid-item"><div class="spacer"></div></div>
+
+        <div class="grid-item">
+            <div class="details">
+                <div class="grid">
+                    <div class="item2">
+                        <img class="detailsImg" src="FixPCAssets/RocketFuel.png" draggable="false">
+                    </div>
+                    <div class="item2">
+                        <div class="detailsText"><br></div>
+
+                        <div class="detailsTitle">
+                            Title Text Here!
+                        </div>
+
+                        <div class="detailsText">
+                            <br>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            <br>
+                            In a ipsum eget sapien tristique iaculis.
+                            Fusce vel iaculis elit, nec facilisis est. Duis tincidunt, odio id porttitor ultrices, est nibh mollis
+                            enim, a egestas nisi mi.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-item"><div class="spacer"></div></div>
+
+        <div class="grid-item">
+            <div class="grid-container">
+                <img class="fade" src="FixPCAssets/Fade.png">
+                <img class="space" src="FixPCAssets/Home.png">
+            </div>
+        </div>
+
+    </div>
+
+        <script src="MainJavascript.js"></script>
+        <script>headerStart(0);</script>
+        <script src="FixPCJavascript.js"></script>
+
+</body>
+</html>
