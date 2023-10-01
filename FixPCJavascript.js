@@ -27,7 +27,7 @@ track.addEventListener("touchmove", e => {
 
     const percentage = (touchDelta / maxDelta) * -50;
     const nextPercentageUnconstrained = parseFloat(track.dataset.prevPercentage) + percentage;
-    const nextPercentage = Math.max(Math.min(nextPercentageUnconstrained, 0), -70);
+    const nextPercentage = Math.max(Math.min(nextPercentageUnconstrained, 0), -41);
 
     track.dataset.percentage = nextPercentage;
     track.style.transform = `translate(${nextPercentage}%, 0%)`;
@@ -65,7 +65,7 @@ document.addEventListener("mousemove", e => {
 
     const percentage = (mouseDelta / maxDelta) * -50;
     const nextPercentageUnconstrained = parseFloat(track.dataset.prevPercentage) + percentage;
-    const nextPercentage = Math.max(Math.min(nextPercentageUnconstrained, 0), -70);
+    const nextPercentage = Math.max(Math.min(nextPercentageUnconstrained, 0), -41);
 
     track.dataset.percentage = nextPercentage;
     track.style.transform = `translate(${nextPercentage}%, 0%)`;
