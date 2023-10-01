@@ -21,8 +21,8 @@ body {
 }
 
 .image {
-    width: 40%;
-    height: 60vmin;
+    width: 35vw;
+    height: 58vh;
     object-fit: cover;
     object-position: 100% center;
     border-radius: 20px;
