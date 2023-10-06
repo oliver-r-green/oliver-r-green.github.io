@@ -32,7 +32,7 @@ function headerCycle(buttonIndex, startButton) {
     selectedButton.style.color = 'white';
 
     const buttonPosition = selectedButton.getBoundingClientRect().left;
-    const barPosition = buttons[1].getBoundingClientRect().left - 8;
+    const barPosition = buttons[1].getBoundingClientRect().left + 10;
 
     const offset = buttonPosition - barPosition;
     bar.style.transform = `translateX(${offset}px)`;
@@ -47,7 +47,7 @@ function headerStart(buttonIndex) {
     const selectedButton = buttons[buttonIndex];
     selectedButton.style.color = 'white';
     const buttonPosition = selectedButton.getBoundingClientRect().left;
-    const barPosition = buttons[1].getBoundingClientRect().left - 8;
+    const barPosition = buttons[1].getBoundingClientRect().left + 10;
 
     const offset = buttonPosition - barPosition;
     bar.style.transform = `translateX(${offset}px)`;
