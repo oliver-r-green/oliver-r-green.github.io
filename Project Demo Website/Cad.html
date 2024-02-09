@@ -1,0 +1,137 @@
+<html>
+<head>
+    
+    <title>Project Demo Website</title>
+    <LINK REL='stylesheet' TYPE='text/css' HREF='Cad.css'>
+	<!--<script type="text/javascript" src="myJavascript.js"></script>-->
+
+</head>
+<body>
+
+    <div class="header" onmouseout="headerCycle(-1, 1)">
+        <!--below are links to multiple html documents I have written-->
+
+        <div></div>
+        <a style="text-decoration: none" href="index.html"><div class="header-text" onmouseover="headerCycle(0, 1)">Fix PC</div></a>
+        <a style="text-decoration: none" href="Cad.html"><div class="header-text" onmouseover="headerCycle(1, 1)">My CAD</div></a>
+        <a style="text-decoration: none" href="Resume.html"><div class="header-text" onmouseover="headerCycle(2, 1)">Resume</div></a>
+        <div></div>
+        <span class="bar" id="bar"></span>
+    </div>
+    <br>
+
+    <div class="page">
+
+        <div class="grid">
+
+            <div class="margin"></div>
+            <div class="item2"><img class="image" src="CadAssets/USB.png" alt="USB"></div>
+            <div class="item2"><div style="margin-top: 20%; text-align: center;"><div class="title">My CAD Software.</div><div class="regular-text">A set of<br>hard-coded libraries!</div></div></div>
+            <div class="margin"></div>
+
+        </div>
+
+        <div class="grid">
+
+            <div class="margin"></div>
+            <img class="item3" style="background-color: #50505010; border-top-left-radius: 50px; border-top-right-radius: 50px;" data-text="
+
+                 View 3D object files from every possible angle. Pan, zoom and rotate, resting assured that the software supports
+                 both perspective and orthograthic projection, switchable at a click of a button.
+                 
+                 " design="border-top-left-radius: none; border-top-right-radius: 50px;" src="CadAssets/USB1.png" alt="USB">
+            <img class="item3" data-text="
+
+                 Produce complete 2D views. Select, add and remove individual vertices with few taps of the mouse.
+
+                 " design="border-top-left-radius: 50px; border-top-right-radius: 50px;" src="CadAssets/USB4.png" alt="USB">
+            <img class="item3" data-text="
+
+                 Compatible with other CAD software applications, as supports both reading and writing to the .obj file format. This
+                 enables seamless collaboration with the users current software, allowing for the transfer of files and even the
+                 ability to work alongside their chosen software to make the changes to their models that they could previously not.
+
+                 " design="border-top-left-radius: 50px; border-top-right-radius: 50px;" src="CadAssets/USB2.png" alt="USB">
+            <img class="item3" data-text="
+
+                 Plans stand currently to add additional design tools to the software; to provide improved rendering of objects and
+                 physics simulations to really take advantage of the 3D graphics environment. The project is that of a set of hard-coded
+                 libraries, allowing for the potential to be released as an executable application or be exported as a set of
+                 libraries that the user can then interface with at a more code-based level to create custom design tools and a better
+                 tailored experience to each individual.
+
+                 " design="border-top-left-radius: 50px; border-top-right-radius: none;" src="CadAssets/USB3.png" alt="USB">
+            <div class="margin"></div>
+
+        </div>
+
+        <div class="grid">
+
+            <div class="margin"></div>
+            <div class="inner">
+                <div style="border-top-right-radius: 50px" class="description">
+                    View 3D object files from every possible angle. Pan, zoom and rotate, resting assured that the software supports
+                    both perspective and orthograthic projection, switchable at a click of a button.
+                </div>
+            </div>
+            <div class="margin"></div>
+
+        </div>
+
+        <div class="grid">
+
+            <div class="margin"></div>
+            <div class="inner">
+                <div class="right-text">^ Hover over the above images to read more. ^</div>
+                <br>
+                <br>
+                <div class="title2">The Software So Far...</div>
+                <ul>
+                    <li class="regular-text">
+                        Consists of a large object-oriented data structure that holds all the relevant information about a scene.
+                    </li>
+                </ul>
+                <br><img class="diagram" src="CadAssets/Diagram.png" alt="Object Oriented Classes">
+                <div>^ OOP relationship diagram.</div>
+                <ul>
+                    <br>
+                    <li class="regular-text">
+                        Each scene is broken up into objects where every object has a number of faces and each face has vertices. There
+                        therefore exists compositional relationships between the scene and objects, objects and faces and faces and their
+                        vertices.
+                    </li>
+                    <br>
+                    <br>
+
+                    <li class="regular-text">
+                        Further classes are then defined to: map 3D coordinates to 2D onscreen coordinates; break up the .obj file into
+                        data that is inserted into the OO structure and to handle rendering, design tools and matrice operations.
+                    </li>
+                </ul>
+            </div>
+            <div class="margin"></div>
+
+        </div>
+
+        <br>
+
+        <div class="grid">
+
+            <div class="margin"></div>
+            <div class="diagram2"><img class="image" src="CadAssets/Orthographic.png" alt="Orthographic Projection">Orthographic Projection</div>
+            <div class="diagram2"><img class="image" src="CadAssets/Perspective.png" alt="Perspective Projection">Perspective Projection</div>
+            <div class="margin"></div>
+
+        </div>
+        <br>
+
+        <script src="MainJavascript.js"></script>
+        <script>headerStart(1);</script>
+
+    </div>
+
+</body>
+</html>
+
+
+
