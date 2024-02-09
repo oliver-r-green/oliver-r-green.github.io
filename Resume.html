@@ -1,0 +1,27 @@
+<html>
+<head>
+    <title>Project Demo Website</title>
+    <LINK REL='stylesheet' TYPE='text/css' HREF='FixPC.css'>
+</head>
+<body>
+
+    <div class="header" onmouseout="headerCycle(-1, 2)">
+                <!--below are links to multiple html documents I have written-->
+
+                <div></div>
+                <a style="text-decoration: none" href="index.html"><div class="header-text" onmouseover="headerCycle(0, 0)">Fix PC</div></a>
+                <a style="text-decoration: none" href="Cad.html"><div class="header-text" onmouseover="headerCycle(1, 0)">My CAD</div></a>
+                <a style="text-decoration: none" href="Resume.html"><div class="header-text" onmouseover="headerCycle(2, 0)">Resume</div></a>
+                <div></div>
+                <span class="bar" id="bar"></span>
+
+    </div>
+
+    <div class="spacer"></div>
+    <embed src="CV Oliver Green.pdf" type="application/pdf" width="100%" height="100%" />
+
+    <script src="MainJavascript.js"></script>
+    <script>headerStart(2);</script>
+
+</body>
+</html>
