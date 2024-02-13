@@ -86,7 +86,7 @@ body {
 
 .detailsTitle {
     color: white;
-    font-size: 6.2vw;
+    font-size: 5.6vw;
     font-weight: bold;
     padding: 10px;
     padding-right: 25%;
@@ -143,9 +143,9 @@ body {
 
 .space {
     min-width: 100%;
-    left: 50%;
     position: relative;
-    transform: translateX(-50%);
+    display: block;
+    margin: auto;
 }
 
 .tape {
