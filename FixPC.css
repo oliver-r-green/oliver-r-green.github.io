@@ -138,6 +138,7 @@ body {
 
 .space_case {
     max-width: 100vw;
+    overflow: hidden;
 }
 
 .space {
@@ -145,7 +146,6 @@ body {
     left: 50%;
     position: relative;
     transform: translateX(-50%);
-    overflow: hidden;
 }
 
 .tape {
